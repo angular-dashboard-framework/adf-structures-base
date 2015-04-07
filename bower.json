@@ -1,0 +1,20 @@
+{
+  "name": "adf-structures-base",
+  "version": "0.1.0",
+  "main": [
+    "dist/adf-structures-base.js"
+  ],
+  "ignore": [
+    "bower.json",
+    ".bowerrc",
+    ".gitignore",
+    "Gruntfile.js",
+    "node_modules",
+    "package.json",
+    "src",
+    ".tmp"
+  ],
+  "dependencies": {
+    "angular-dashboard-framework": "^0.7.0"
+  }
+}
