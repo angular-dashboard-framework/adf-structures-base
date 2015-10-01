@@ -1,6 +1,6 @@
 {
-  "name": "adf-structures-base-sytone",
-  "version": "0.1.0",
+  "name": "adf-structures-base",
+  "version": "0.1.2",
   "main": [
     "dist/adf-structures-base.js"
   ],
@@ -23,3 +23,4 @@
     "angular-dashboard-framework": "^0.7.0"
   }
 }
+ 
