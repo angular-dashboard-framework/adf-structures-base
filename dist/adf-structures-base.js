@@ -27,6 +27,63 @@ angular.module('adf.structures.base', ['adf'])
   .config(function(dashboardProvider){
 
     dashboardProvider
+      .structure('3-3-3', {
+        rows: [{
+          columns: [{
+            styleClass: 'col-md-3'
+          }, {
+            styleClass: 'col-md-3'
+          }, {
+            styleClass: 'col-md-3'
+          }]
+        }]
+      })   
+      .structure('2-2-2-2-2-2', {
+        rows: [{
+          columns: [{
+            styleClass: 'col-md-2'
+          }, {
+            styleClass: 'col-md-2'
+          }, {
+            styleClass: 'col-md-2'
+          }, {
+            styleClass: 'col-md-2'
+          }, {
+            styleClass: 'col-md-2'
+          }, {
+            styleClass: 'col-md-2'
+          }]
+        }]
+      })    
+      .structure('1-1-1-1-1-1-1-1-1-1-1-1', {
+        rows: [{
+          columns: [{
+            styleClass: 'col-md-1'
+          }, {
+            styleClass: 'col-md-1'
+          }, {
+            styleClass: 'col-md-1'
+          }, {
+            styleClass: 'col-md-1'
+          }, {
+            styleClass: 'col-md-1'
+          }, {
+            styleClass: 'col-md-1'
+          }, {
+            styleClass: 'col-md-1'            
+          }, {
+            styleClass: 'col-md-1'            
+          }, {
+            styleClass: 'col-md-1'            
+          }, {
+            styleClass: 'col-md-1'            
+          }, {
+            styleClass: 'col-md-1'            
+          }, {
+            styleClass: 'col-md-1'            
+          }]
+        }]
+      })         
       .structure('6-6', {
         rows: [{
           columns: [{
