@@ -1,5 +1,5 @@
 {
-  "name": "adf-structures-base",
+  "name": "adf-structures-base-sytone",
   "version": "0.1.0",
   "main": [
     "dist/adf-structures-base.js"
