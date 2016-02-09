@@ -24,7 +24,7 @@
 'use strict';
 
 angular.module('adf.structures.base', ['adf'])
-  .config(function(dashboardProvider){
+  .config(['dashboardProvider', function(dashboardProvider){
 
     dashboardProvider
       .structure('6-6', {
@@ -113,4 +113,4 @@ angular.module('adf.structures.base', ['adf'])
         }]
       });
 
-  });
+  }]);
