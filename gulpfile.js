@@ -57,9 +57,9 @@ gulp.task('build', function(){
   gulp.src('src/*.js')
       .pipe($.sourcemaps.init())
       .pipe($.concat(name + '.js'))
+      .pipe($.ngAnnotate(annotateOptions))
       .pipe(gulp.dest('dist/'))
       .pipe($.rename(name + '.min.js'))
-      .pipe($.ngAnnotate(annotateOptions))
       .pipe($.uglify())
       .pipe($.sourcemaps.write('.'))
       .pipe(gulp.dest('dist/'));
